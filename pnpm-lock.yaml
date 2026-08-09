@@ -18,7 +18,7 @@ importers:
   apps/api:
     dependencies:
       '@langchain/community':
-        specifier: ^0.2.16
+        specifier: ^0.2.33
         version: 0.2.33(@langchain/google-genai@0.1.8)(faiss-node@0.5.1)
       '@langchain/core':
         specifier: ^0.2.10
