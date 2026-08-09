@@ -1,0 +1,19 @@
+{
+  "name": "synapse-ai",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "dev:api": "turbo dev --filter=api",
+    "dev:web": "turbo dev --filter=web"
+  },
+  "devDependencies": {
+    "turbo": "latest",
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "pnpm@8.15.0"
+}
